@@ -5,26 +5,101 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+} 
+body {
+    min-width: 360px;
+    
+}
 
-/************************************ Header Start*/
+/***************************************** Header Start*/
 
 .header {
+    width: 1440px;
+    height: 75px; 
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.container {
+    width: 1365px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 26px 38px;
 }
 .header__menu {
+    display: flex;
 }
 .header__menu-link {
+    margin-right: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #000;
 }
-.logo {
+.header__logo {
+    width: 200;
+    height: 17;
+    opacity: 1;
 }
-.login {
+.header__login {
+    
 }
 .header__login-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
 }
 .header__banner {
+    background: url(../img/header-bg.png) no-repeat center / cover;
+    height: 504px;
+    width: 100%;
+    position: relative;
 }
-.beader__banner-title {
+.header__banner-container {
+
+    position: absolute;
+    bottom: 187px ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
 }
-.beader__banner-text {
+.header__banner-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color:#fff;
+    font-size: 43px;
+    padding-bottom: 12px;
+
 }
-.beader__banner-link {
+.header__banner-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color:#fff;
+    padding-bottom: 28px; 
 }
+.header__banner-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+/************************************** Start section design */
+
