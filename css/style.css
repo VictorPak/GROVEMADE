@@ -21,7 +21,6 @@ body {
 
 .header {
     width: 1440px;
-    height: 75px; 
     /* border: 1px solid black; */
     margin: 0 auto;
 }
@@ -69,7 +68,6 @@ body {
     position: relative;
 }
 .header__banner-container {
-
     position: absolute;
     bottom: 187px ;
     display: flex;
@@ -103,3 +101,149 @@ body {
 
 /************************************** Start section design */
 
+.section__design {
+    width: 580px;
+    height: 153px;
+    /* border: 1px solid black; */
+    margin: 80px auto;
+
+}
+.section__design-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.section__design-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 43px;
+    color: #000;
+    padding-bottom: 23px;
+}
+.section__design-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #A0A0A0;
+    padding-bottom: 26px;
+}
+.section__design-link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+/**************************************************** Start section-loptop */
+.section-loptop {
+}
+.section__loptop-container {
+    display: flex;
+    justify-content: space-around;
+}
+.section-loptop__desk-pads {
+    text-align: center;
+
+}
+.section-loptop__desk-pads-img{
+    padding-bottom: 43px;
+}
+.section-loptop__desk-pads-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 27px;
+    color:#000;
+    padding-bottom: 23px;
+}
+.section-loptop__desk-pads-link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:#000;
+}
+/************************************************ Start featured*/
+
+.section__featured {
+    width: 580px;
+    height: 153px;
+    /* border: 1px solid black; */
+    margin: 80px auto;
+
+}
+.section__featured-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.section__featured-title {
+    font-family: 'Roboto';
+    color:#000;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.section__featured-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #A0A0A0;
+    padding-bottom: 48px;
+}
+
+.section__featured-square {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.square-one {
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+}
+
+.section__featured-products {
+    display: flex;
+    justify-content: space-between;
+}
+.container_section__featured-item {
+    padding-right: 25px;
+
+}
+.container_section__featured-item-img {
+    padding-bottom: 22px;
+}
+.container_section__featured-item-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+
+}
+.container_section__featured-item--text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
