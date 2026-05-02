@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/************************************ Header Start*/
+
+.header {
+}
+.header__menu {
+}
+.header__menu-link {
+}
+.logo {
+}
+.login {
+}
+.header__login-link {
+}
+.header__banner {
+}
+.beader__banner-title {
+}
+.beader__banner-text {
+}
+.beader__banner-link {
+}
