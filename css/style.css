@@ -394,9 +394,12 @@ body {
     width: 82px;
     height: 82px;
     background-color: #000;
-    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;    border-radius: 2px;
 }
-.section__link-goup a {
+.section__link-goup p {
+
     font-family: 'Roboto';
 font-weight: 400;
 font-style: Regular;
